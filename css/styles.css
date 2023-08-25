@@ -2,6 +2,7 @@
 
 .list {
   list-style-type: none;
+  display: flex;
 }
 
 .link {
@@ -11,6 +12,7 @@
 /* a {
   text-decoration: none;
 } */
+
 button {
   cursor: pointer;
 }
@@ -20,7 +22,57 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.adress-item-link {
+  column-gap: 40px;
+}
+
+.items-column {
+  column-gap: 24px;
+}
+/* .container-portfolio-content {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 156px;} */
 /* HEADER */
+
+.page-header-container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
 
 .logotype {
   color: #4d5ae5;
@@ -30,6 +82,9 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  align-items: center;
+  padding-right: 76px;
+  padding-left: 156px;
 }
 .logo-part-header {
   color: #2e2f42;
@@ -71,6 +126,7 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  margin: 188px 472px 292px 472px;
 }
 
 .order-serv-btn {
@@ -81,6 +137,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  margin: 356px 635px 188px 636px;
 }
 
 .order-serv-btn:hover,
@@ -146,7 +203,6 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-
 
 /* Our Portfolio */
 
