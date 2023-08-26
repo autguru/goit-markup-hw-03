@@ -189,8 +189,7 @@ gap: 10px; */
 }
 
 .solution-text-size {
-
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 
   /* Для 1 li в класі заданий стиль width: calc((100% - 72px) / 4);
   для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами
@@ -199,9 +198,9 @@ gap: 10px; */
    або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4)) */
 }
 
-.solution-title-size{
- margin-bottom: 8px;   
-} 
+.solution-title-size {
+  margin-bottom: 8px;
+}
 
 /* Header 3 */
 .section-solution-title {
@@ -224,7 +223,7 @@ gap: 10px; */
 
 .section-our-team {
   background-color: #f4f4fd;
-  padding: 120px 0; 
+  padding: 120px 0;
 }
 .our-team-title {
   color: #2e2f42;
@@ -234,11 +233,9 @@ gap: 10px; */
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  
 }
 
-
-.team-title-location{
+.team-title-location {
   margin-bottom: 72px;
   text-align: center;
 }
@@ -250,12 +247,11 @@ gap: 10px; */
 
 .li-our-team {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;  
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-li-position {
   padding: 32px 0;
-
 }
 .our-team-list {
   background-color: #ffffff;
@@ -277,15 +273,14 @@ gap: 10px; */
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  
 }
 
 /* Our Portfolio */
 
 .section-our-portfolio {
   background: #ffffff;
-  padding-top: 120px; 
-  padding-bottom: 120px; 
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-portfolio-title {
@@ -293,27 +288,27 @@ gap: 10px; */
 }
 
 .li-position-horizont {
-  display: flex;      /* розміщення елементів списку в рядок по горизонталі */
-  flex-wrap: wrap;    /* для переносу елементів списку на новий рядок */
-  column-gap: 24px;   /* для визначення горизонтальних відступів між пунктами списку */
-  row-gap: 48px;      /* для визначення вертикальних відступів між елементами списку якщо вони 
+  display: flex; /* розміщення елементів списку в рядок по горизонталі */
+  flex-wrap: wrap; /* для переносу елементів списку на новий рядок */
+  column-gap: 24px; /* для визначення горизонтальних відступів між пунктами списку */
+  row-gap: 48px; /* для визначення вертикальних відступів між елементами списку якщо вони 
   переносяться на новий рядок
   (можна використовувати margin-bottom: 48px для тега li у класі, 
   для трьох останіх пунктів списку використовуємо margin-bottom: 0 для обнулення відступів) */
 }
 
 .portfolio-li-style {
-width: calc((100% - 48px) / 3); 
-/* Для першого пункту списку в класі заданий стиль width: calc((100% - 48px) / 3); 
+  width: calc((100% - 48px) / 3);
+  /* Для першого пункту списку в класі заданий стиль width: calc((100% - 48px) / 3); 
 для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму 
 відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
 }
 
 .container-portfolio-div {
-  padding: 32px 16px; 
-  border: 1px solid #e7e9fc;  /* визначення стилю обводки по периметру контейнера */
-  border-top: none;        /* скидання стилів обводки для верхнього краю контейнера */
-  margin-bottom: 8px
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; /* визначення стилю обводки по периметру контейнера */
+  border-top: none; /* скидання стилів обводки для верхнього краю контейнера */
+  margin-bottom: 8px;
 }
 
 .our-portfolio-title {
@@ -364,7 +359,7 @@ width: calc((100% - 48px) / 3);
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding: 100px 0; 
+  padding: 100px 0;
 }
 .section-footer-fon {
   background: #2e2f42;
@@ -381,7 +376,6 @@ width: calc((100% - 48px) / 3);
 .logo-part-footer {
   color: #f4f4fd;
 }
-
 
 .link-footer-position {
   display: inline-block;
