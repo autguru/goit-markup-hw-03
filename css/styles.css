@@ -45,28 +45,20 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* .adress-item-link {
-  column-gap: 40px;
-} */
 
-/* .items-column {
-  column-gap: 24px;
-} */
-/* .container-portfolio-content {
-  width: 1440px;
-  margin: 0 auto;
-  padding: 0 156px;} */
-/* HEADER */
+.page-header {
+  border-bottom: 1px solid #e7e9fc; /* оформлення нижнього краю хедера */
+}
 
 .page-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1158px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .page-navigation {
   display: flex;
+  align-items: center; /* вирівнювання навігації та контактів по вертикалі */
 }
 
 .header-logo-right {
@@ -149,9 +141,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  /* padding: 16px 32px;
-align-items: flex-start;
-gap: 10px; */
 }
 
 .section-hero-title {
@@ -177,6 +166,7 @@ gap: 10px; */
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  margin-top: 48px;
 }
 
 .order-serv-btn:hover,
@@ -206,10 +196,6 @@ gap: 10px; */
    або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4)) */
 }
 
-.solution-title-size {
-  margin-bottom: 8px;
-}
-
 /* Header 3 */
 .section-solution-title {
   color: #2e2f42;
@@ -217,6 +203,7 @@ gap: 10px; */
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .section-solution-text {
   color: #434455;
@@ -225,6 +212,19 @@ gap: 10px; */
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* TEAM */
@@ -241,6 +241,7 @@ gap: 10px; */
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .team-title-location {
@@ -272,6 +273,7 @@ gap: 10px; */
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .our-team-describtion {
   color: #434455;
@@ -329,6 +331,7 @@ gap: 10px; */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 8px;
 }
 .main-title {
   color: #2e2f42;
@@ -379,10 +382,10 @@ gap: 10px; */
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding: 100px 0;
 }
 .section-footer-fon {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .logotype-footer-style {
   color: #4d5ae5;
@@ -400,7 +403,6 @@ gap: 10px; */
 .link-footer-position {
   display: inline-block;
   margin-bottom: 16px;
-  margin-top: 102px;
 }
 
 .list-footer-size {
