@@ -66,13 +66,13 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .page-navigation {
-  display: flex; 
+  display: flex;
 }
 
 .header-logo-right {
   margin-left: 76px;
   margin-right: 76px;
-  display: flex; 
+  display: flex;
 }
 .menu-nav-list {
   display: flex;
@@ -383,18 +383,14 @@ gap: 10px; */
 }
 .logo-part-footer {
   color: #f4f4fd;
-
 }
 
 .link-footer-position {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
-
+  margin-top: 102px;
 }
 
 .list-footer-size {
   max-width: 264px;
-  margin-left: 156px;
-
 }
