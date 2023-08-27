@@ -330,6 +330,18 @@ gap: 10px; */
   text-transform: capitalize;
   text-align: center;
 }
+.main-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .our-portfolio-items {
   color: #2e2f42;
